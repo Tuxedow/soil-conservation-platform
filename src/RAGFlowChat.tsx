@@ -11,7 +11,7 @@ interface RAGFlowChatProps {
   onClose?: () => void;
 }
 
-const RAGFLOW_URL = 'http://dtgis.com.cn:55558/next-chats/share?shared_id=fc9971fa1ddb11f195020242ac140006&from=chat&auth=bKG1WNOGTPHDAfY5mdu5SJclO_v4ZIYn&theme=light';
+const RAGFLOW_URL = 'https://dtgis.com.cn:55558/next-chats/share?shared_id=fc9971fa1ddb11f195020242ac140006&from=chat&auth=bKG1WNOGTPHDAfY5mdu5SJclO_v4ZIYn&theme=light';
 
 export default function RAGFlowChat({ onClose }: RAGFlowChatProps) {
   const [mode, setMode] = useState<'chat' | 'iframe'>('chat');
